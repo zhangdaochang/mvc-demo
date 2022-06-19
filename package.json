@@ -4,5 +4,12 @@
   "description": "this is a mvc-demo",
   "main": "index.html",
   "author": "zhangdao",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14"
+  },
+  "scripts": {
+    "build":"parcel build src/index.html --public-url ./ --no-minify"
+  }
 }
