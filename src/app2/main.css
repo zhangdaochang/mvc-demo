@@ -1,0 +1,32 @@
+#app2{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+    overflow-y: hidden;
+}
+ol{
+    list-style: none;
+}
+#app2 > .tabBar > ol{
+    display: flex;
+    height: 5vh;
+}
+#app2 > .tabBar > ol > li{
+    flex: 1;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid gray;
+    line-height: 5vh;
+}
+#app2 > .tabBar > ol > li.active{
+    background-color: red;
+}
+
+#app2 > .tabContent >ol > li{
+    display: none;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+#app2 > .tabContent >ol > li.active{
+    display: block;
+}

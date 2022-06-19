@@ -1,0 +1,8 @@
+{
+  "name": "mvc-demo",
+  "version": "1.0.0",
+  "description": "this is a mvc-demo",
+  "main": "index.html",
+  "author": "zhangdao",
+  "license": "MIT"
+}

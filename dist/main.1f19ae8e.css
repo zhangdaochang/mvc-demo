@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    overflow-y: hidden;
+}
+*::after,*::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body .page{
+    display: flex;
+    flex-wrap: wrap;
+}
+#app1{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app1 > div > .view{
+    border: 1px solid red;
+    display: block;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    line-height: 5vh;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: black;
+}
+#app1 > .operate{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+#app1 > .operate > button{
+    width: 50%;
+    height: 22.5vh;
+    font-size: 50px;
+}
+
+#app2{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+    overflow-y: hidden;
+}
+ol{
+    list-style: none;
+}
+#app2 > .tabBar > ol{
+    display: flex;
+    height: 5vh;
+}
+#app2 > .tabBar > ol > li{
+    flex: 1;
+    text-align: center;
+    background-color: aqua;
+    border: 1px solid gray;
+    line-height: 5vh;
+}
+#app2 > .tabBar > ol > li.active{
+    background-color: red;
+}
+
+#app2 > .tabContent >ol > li{
+    display: none;
+    background-color: antiquewhite;
+    height: 100vh;
+}
+#app2 > .tabContent >ol > li.active{
+    display: block;
+}
+#app3{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app3 > .circ{
+    border: 1px solid red;
+    width: 10vh;
+    height: 10vh;
+    margin: 20vh auto 0 auto;
+    transition: 1s;
+}
+#app3 > .circ:hover{
+    transform: translateX(18vh);
+}
+#app4{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+#app4 > .circ{
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid red;
+    margin: 20vh auto 0 auto;
+    border-radius: 100%;
+    background-color: red;
+}
+#app4 > .circ:hover{
+    animation: gradient 2s infinite 100ms ease-in reverse;
+}
+@keyframes gradient{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+
+
+/*# sourceMappingURL=/main.1f19ae8e.css.map */

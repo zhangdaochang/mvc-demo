@@ -1,0 +1,26 @@
+#app1{
+    width: 50vw;
+    height: 50vh;
+    border: 1px solid red;
+}
+#app1 > div > .view{
+    border: 1px solid red;
+    display: block;
+    height: 5vh;
+    width: 100%;
+    text-align: center;
+    line-height: 5vh;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: black;
+}
+#app1 > .operate{
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+}
+#app1 > .operate > button{
+    width: 50%;
+    height: 22.5vh;
+    font-size: 50px;
+}

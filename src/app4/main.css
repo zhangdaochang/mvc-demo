@@ -1,0 +1,28 @@
+#app4{
+    border: 1px solid red;
+    width: 50vw;
+    height: 50vh;
+}
+#app4 > .circ{
+    width: 20vh;
+    height: 20vh;
+    border: 1px solid red;
+    margin: 20vh auto 0 auto;
+    border-radius: 100%;
+    background-color: red;
+}
+#app4 > .circ:hover{
+    animation: gradient 2s infinite 100ms ease-in reverse;
+}
+@keyframes gradient{
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: yellow;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
